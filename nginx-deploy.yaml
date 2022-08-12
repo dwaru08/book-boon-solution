@@ -17,3 +17,8 @@ spec:
         image: nginx:1.16.1
         ports:
         - containerPort: 80
+      volumes:
+      - name: test-devops
+        hostPath:
+          path: /etc/nginx/conf.d/
+          type: Directory

@@ -69,7 +69,7 @@ spec:
             memory: 2Gi
           requests:
             cpu: "1"
-            memory: 20000Gi
+            memory: 2Gi               #Fixed the memory limit.
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
